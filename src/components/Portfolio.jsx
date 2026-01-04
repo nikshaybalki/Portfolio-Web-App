@@ -233,6 +233,7 @@ const Portfolio = () => {
             img: todoImg,
             link: "https://to-do-list-nb.vercel.app"
         }
+       
     ];
 
     return (
@@ -365,7 +366,7 @@ const Portfolio = () => {
                 </div>
 
                 <motion.a 
-                    href="#" 
+                    // href="#" 
                     className="btn"
                     whileHover={{ scale: 1.05, background: '#2cc990' }}
                     style={{
